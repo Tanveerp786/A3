@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Tanveer - Table</title>
+  <link rel="stylesheet" href="../css/theme.css" type="text/css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <!-- it is common to place the .js files at the end of the <body> tag as well -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+  <!-- ... -->
+</head>
+<body>
+  <nav class="navbar navbar-default navbar-static-top bg-light">
+    <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Web322 A3</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+        <li><a href="./">Home</a></li>
+        <li><a href="./storefront.html">Storefront</a></li>
+        <li><a href="./audio.html">Audio</a></li>
+        <li><a href="./list.html">List</a></li>
+        <li class ="active"><a href="#">Table</a></li>
+        <li><a href="./video.html">Video</a></li>
+        </ul>
+    </div>
+    </div>
+   </nav>
+   <div class ="container">
+  <h1>Welcome to the Table Page</h1>
+  
+  <h3>Price Listing and Employee Info Tables</h3>
+  
+  <table>
+    <caption><strong>Table 1:Price List</strong> </caption>
+    <thead>
+      <tr>
+        <th>Item</th>
+        <th>Quantity</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Grapes</td>
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3</td>
+        <td>$9.99</td>
+      </tr>
+      <tr>
+        <td>Mangoes</td>
+        <td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2</td>
+        <td>$11.89</td>
+      </tr>
+      <tr>
+        <td>Banana</td>
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1</td>
+        <td>$4.49</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td>Total</td>
+        <td colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$26.37</td>
+      </tr>
+    </tfoot>
+  </table>
+  <br>
+  <br>
+  
+  
+  <table>
+    <caption><b>Table 2: Employee Information</b></caption>
+    <thead>
+      <tr>
+        <th rowspan="2">Employee</th>
+        <th colspan="2">Contact</th>
+      </tr>
+      <tr>
+        <th>Email</th>
+        <th>Phone</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Mark Dean</td>
+        <td>&nbsp;&nbsp;&nbsp;mark@gmail.com</td>
+        <td>(647) 613-7867</td>
+      </tr>
+      <tr>
+        <td>Daniel James</td>
+        <td>&nbsp;&nbsp;&nbsp;daniel@gmail.com</td>
+        <td>(413) 546-6587</td>
+      </tr>
+      <tr>
+        <td>Tayyab Qureshi</td>
+        <td>&nbsp;&nbsp;&nbsp;tayyab12@gmail.com</td>
+        <td>(647) 231-7864</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <p>The tabular style of these tables makes it easy to manage and understand the data. The Price List table provides details on different products, including the quantities and costs associated with them, while the Employee Information table lists employees along with their contact information.</p>
+</body>
+</html>

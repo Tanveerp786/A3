@@ -1,0 +1,64 @@
+@import "/node_modules/bootstrap/scss/bootstrap.scss";
+@import "/node_modules/bootstrap/scss/_variables-dark.scss";
+@import "/node_modules/bootstrap/scss/_variables.scss";
+@import "/node_modules/bootstrap/scss/_functions.scss";
+
+html {
+  overflow: auto;
+  background: bisque; /* fallback color */
+  background: linear-gradient(to bottom, #dd22ba, #22badd) !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+
+head {
+  /* height: 50px; */
+  padding: 50px;
+  border: 1px solid #144f5a;
+}
+#menu{
+  display:grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+}
+
+body, main {
+  display: grid;
+  justify-content: center;
+  overflow: auto;
+  background: bisque; /* fallback color */
+  background: linear-gradient(to bottom, #dd22ba, #22badd) !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+}
+
+
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+main.container {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  gap: 50px;
+}
+.row {
+  border-width: 10px;
+  justify-content: center;
+}
+
+.card {
+  padding: 10px;
+  margin: 8px;
+  background-color: rgb(183, 214, 242);
+  max-width: max-content;
+  border-radius: 20px;
+  /* max-width: 25%;   */
+  color: #144f5a;
+  font-weight: 600;
+  box-shadow: 5px 5px 5px #4a4a4a;
+}
